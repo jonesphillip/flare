@@ -7,7 +7,7 @@ An experiment in running Python functions at scale on Cloudflare with a single c
 ### 1. Install
 
 ```bash
-git clone https://github.com/jonesphillip/flare
+git clone https://github.com/jonesphillip/pyflare
 cd flare
 ./install.sh
 ```
