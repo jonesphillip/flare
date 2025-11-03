@@ -168,15 +168,17 @@ flare run --help
 
 **Install Flare library in your project:**
 
-```bash
-# From your project directory
-uv pip install -e /path/to/flare
-
-# Or add to pyproject.toml
+Add to your `pyproject.toml`:
+```toml
 [project]
 dependencies = [
     "flare @ file:///path/to/flare"
 ]
+```
+
+Then run:
+```bash
+uv sync
 ```
 
 **Develop on Flare itself:**
